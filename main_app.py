@@ -49,11 +49,12 @@ st.markdown("""
         justify-content: center;
     }
     .stButton>button:hover {
-        background-color: #45a049;
+        background-color:blue;
+        color:white;
     }
     .stButton.reset_button {
         color: white;
-        background-color: #f44336;
+        background-color: blue;
         transition: background-color 0.3s ease;
         justify-content: center;
     }
@@ -104,7 +105,7 @@ st.markdown("""
 
 # Sidebar for input widgets
 with st.sidebar:
-    st.title("🌿 Plant Disease Detection")
+    st.title("🌿Plant Disease Detection🔎")
     st.markdown("### Upload an image file of the plant leaf to detect the disease")
 
     # File uploader widget
@@ -116,7 +117,7 @@ with st.sidebar:
 
 # Main container
 with st.container():
-    st.markdown('<h1 style="text-align: center;">🌿 Plant Disease Detection 🌿</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 style="text-align: center;">🌿Plant🌱 Disease🐛 Detection🔎🌿</h1>', unsafe_allow_html=True)
 
     if reset_button:
         st.empty()
