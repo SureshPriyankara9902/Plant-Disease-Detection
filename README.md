@@ -1,9 +1,9 @@
-# Plant-Disease-Detection
+![Screenshot (244)](https://github.com/user-attachments/assets/10dd14af-85f5-4544-a9cb-211b4c0eb875)# Plant-Disease-Detection
 
 Plant 🌱 Disease 🐛 Detection 🔎
 Plant Disease Detection is an innovative machine learning project that harnesses the power of Convolutional Neural Networks (CNN) and deep learning techniques to identify and classify diseases in plants. The primary objective is to offer farmers and agricultural experts a valuable tool for swift plant health diagnosis, facilitating timely intervention and minimizing the risk of crop loss.
 
-strealit diploy link = https://sureshpriyankara9902.streamlit.app/
+strealit diploy link = https://sureshpriyankara9902mlp.streamlit.app/
 
 Project Structure 📂
 The project comprises essential components:
@@ -44,3 +44,25 @@ streamlit==1.18.0
 opencv-python-headless==4.5.3
 tensorflow==2.7.0
 plotly
+
+
+
+
+
+![Screenshot (245)](https://github.com/user-attachments/assets/60f49e5c-be0c-4783-b381-a31ca03e993a)
+
+
+
+
+![Screenshot (244)](https://github.com/user-attachments/assets/894b6fd5-b785-4752-9625-8d8229173055)
+
+
+
+
+
+
+
+
+
+
+
