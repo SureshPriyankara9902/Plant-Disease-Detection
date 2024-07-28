@@ -100,12 +100,7 @@ st.markdown("""
         color: #4CAF50;
         font-weight: bold;
     }
-    .stMarkdown > div > div {
-        background-color: #ffffff;
-        padding: 20px;
-        border-radius: 2px;
-        box-shadow: 0 0 10px rgba(2,2,0,2.1);
-    }
+    
     </style>
     """, unsafe_allow_html=True)
 
