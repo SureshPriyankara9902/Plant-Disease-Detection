@@ -100,12 +100,19 @@ st.markdown("""
         color: #4CAF50;
         font-weight: bold;
     }
+    .stMarkdown > div > div {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 2px;
+        box-shadow: 0 0 10px rgba(2,2,0,2.1);
+    }
     </style>
     """, unsafe_allow_html=True)
 
 # Sidebar for input widgets
 with st.sidebar:
     st.title("🌿Plant Disease Detection🔎")
+    st.markdown('<h1 style="text-align: center;">🌱🐛🐛</h1>', unsafe_allow_html=True)
     st.markdown("### Upload an image file of the plant leaf to detect the disease")
 
     # File uploader widget
